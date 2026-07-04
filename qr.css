@@ -1,0 +1,50 @@
+
+body{
+    background-color: gray;
+    display: flex;
+    font-family:roboto, arial;
+    align-items:center;
+    justify-content: center;
+    min-height: 100vh;
+   }
+
+.qr-image-container{
+ background-color:white;
+ width:320px;
+ padding-left: 16px;
+ padding-right: 16px;
+ padding-top: 16px;
+ padding-bottom: 16px;
+ border-radius:20px;
+ box-shadow:0 10px 20px rgba(0,0,0,0.05);
+ text-align: center;
+
+}
+.qr-image{
+    width:100%;
+    border-radius:15px;
+    margin-bottom: 20px;
+  
+}
+
+.card-title{
+    font-size:18px;
+    font-weight: bold;
+    
+    margin-top:0;
+    margin-bottom:18px;
+    margin-left: 0;
+    margin-right: 0;
+    padding:0 16px;
+}
+
+.card-subtitle{
+    color:#7d889e;
+    font-size:15px;
+    line-height:1.4;
+    margin-bottom:20px;
+    padding:0 16px;
+
+}
+
+
